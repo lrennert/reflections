@@ -29,8 +29,27 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+	I can tell at what point a feature branch was created, on which commit the
+	tip of the branch actually is, how to reach a certain commit.
+	Commit doesn't care anything about branch names. Only the branches themselves
+	store anything about the position of the branches.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	The result of merging two branches is a new commit containing the contents of
+	both branches. We represent it as having two ancestors because we can reach
+	all the commits of the underlying branches from the merge commit. The
+	commits are ordered by timestamp. git diff shows the changes between the
+	current and previous version (this is not necessarily the parent!).
+	git show shows the changes between the current
+	and the parent commit.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	Automatic merging is a good way of bringing non-conflicting changes into
+	a common version. It saves time and can be safer in terms of changes
+	will not be overseen. A con is that even changes that my be considered
+	as non-conflicting by git, may have logical side effects. Automated
+	test are strongly recommended when automatec merging is used.
