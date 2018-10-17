@@ -52,4 +52,4 @@ manually?
 	a common version. It saves time and can be safer in terms of changes
 	will not be overseen. A con is that even changes that my be considered
 	as non-conflicting by git, may have logical side effects. Automated
-	test are strongly recommended when automatec merging is used.
+	test are strongly recommended when automatic merging is used.
