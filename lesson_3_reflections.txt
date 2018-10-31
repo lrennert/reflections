@@ -33,7 +33,16 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I would exchange the original file with the collaborators. If it is a
+    Word document I would mark my changes using the track changes mode.
+    The start is easier, as there is no need to set up a git repository or
+    GitHub account respectively. There is not need to learn about git and
+    learn its commands.
+    However, it would be harder to work on the same file in parallel. It would
+    be harder to merge different versions of the same file. It would be 
+    harder to track the current state of the file as well as the change
+    history. 
+        
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
