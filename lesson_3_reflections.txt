@@ -7,8 +7,8 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    To avoid my local changes from being overwritten by the changes in the
-    remote repository.
+    To avoid my local uncommitted changes from being overwritten by the changes
+    in the remote repository.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
@@ -23,7 +23,12 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    A local copy will contain the state of the remote branch as of the last 
+    time I pushed or pulled the branch.
+    If I'm going to be offline for a while, I can update my local copy of the
+    remote branch using git fetch. Then I'll have access to any updates that
+    have been made since I last synced up. Using git log and git diff I
+    can see what changes were introduced.    
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
