@@ -47,4 +47,13 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I would want to make changes in a separate branch if I want to work with
+    other deverlopers on a particular feature without affecting the main code
+    base. Separate branches help keeping the master branch free of errors.
+    Pull requests that are used to merge separate branches into the master
+    branch provide a good opportunity for code reviews and discussions
+    and thus to intensify the cooperation.
+    The benefit of making changes directly in the master branch is the
+    workflow being easier. For a person working alone on a project
+    making changes directly on the master branch will do.
+
